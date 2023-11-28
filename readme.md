@@ -8,3 +8,4 @@ Para clonártelo, escribe en la terminal
 git clone https://github.com/Piluca17/adivina_numero.git
 
 ```
+Ahora he cambiado a ssh

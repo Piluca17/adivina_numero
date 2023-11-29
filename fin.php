@@ -1,4 +1,16 @@
 <?php
+if (!isset($_GET['msj'])){
+    header('Location:index.php');
+    exit();
+}
+
+$mensaje= $_GET['msj'];
+
+
+
+
+
+
 ?>
 
 <!doctype html>
@@ -12,7 +24,7 @@
 </head>
 <body>
 <h1>Fin del juego</h1>
-
+<h2><?=$mensaje?></h2>
 </form>
 </body>
 </html>
